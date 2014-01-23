@@ -1,9 +1,16 @@
 .page {
 	text-align: center;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .banner {
-	
+	width: 900px;
+	height: 100px;
 }
 .content {
-	
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
 }
