@@ -28,7 +28,6 @@ p {
 	margin-right: auto;
 }
 .content {
-	background-image: url('../images/buildings.png');
 	background-repeat: no-repeat;
 	width: 100%;
 	margin-left: auto;
@@ -59,9 +58,6 @@ p {
 	height: 489px;
 }
 
-.content #intro-text {
-	font-size: 18px;
-}
 .content #steps {
 	overflow: hidden;
 	width: 60%;
