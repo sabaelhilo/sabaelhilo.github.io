@@ -1,29 +1,106 @@
 <html>
   <head>
     <title> Girl Development </title>
-    <link rel="stylesheet" type="text/css" href="styles/girlDev.css">
   </head>
   <body>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+      $( document ).ready(function() {
+        var time = 2000;
+        $('#step1').fadeIn(1500, function() {
+          $('#step2').fadeIn(time, function() {
+            $('#step3').fadeIn(time, function() {
+              $('#step4').fadeIn(time, function() {
+
+              });   
+            });
+          });
+        });
+      });
+    </script>
+    
     <div class = "page">
-      <div class = "banner"> Girl Dev </div>
+      <div class = "banner"> <img src="images/banner.jpg"></img> </div>
       <div class = "content">
-      	<h1>Mentoring Groups Assessment</h1>
-      	<ul>
-      		<li>
-      			You must complete this assessment before joining our mentoring groups. The assessment will give us a chance to get to know you, your skill level and understand what your hoping to accomplish. The final output is 3 HTML pages which include why you would like to join our mentoring groups and what you are excited to learn about. 
-      		</li>
-      		<li>
-      			Our assessment will require you to do the following:
-      			<ol>
-      				<li>Setup a development environment of your choice</li>
-      				<li>Create a GitHub account if you don't already have one </li>
-      				<li>Create a GitHub page </li>
-      				<li>Create 3 basic HTML5 pages and style them with basic CSS </li>
-      				<li>Use Google Chrome's Developer tools </li>
-      				<li>Use basic command line to navigate and manage your folders </li>
-      			</ol>	
-      		</li>
-      	</ul>
+        <div id = "intro">
+          <div id="intro-text">
+          	<h1>Mentoring Groups Assessment</h1>
+          			<p>
+                  You must complete this assessment before joining our mentoring groups. The assessment will give us a chance to get to know you, your skill level and understand what your hoping to accomplish. The final output is three HTML pages which include why you would like to join our mentoring groups and what you are excited to learn about. 
+                </p>
+          			<p>
+                  Our assessment will require you to do the following:
+                </p>
+          			<ol>
+          				<li>Setup a development environment of your choice </a></li>
+          				<li>Create a GitHub account if you don't already have one </li>
+          				<li>Create a GitHub page </li>
+          				<li>Create 3 basic HTML5 pages and style them with basic CSS </li>
+          				<li>Use Google Chrome's Developer tools </li>
+          				<li>Use basic command line to navigate and manage your folders </li>
+          			</ol>
+              </div>
+            </div>
+            <ul id="steps">
+              <div id="step1">
+                <h4> Step 1: </h4>
+                <li id="dev-environment">
+                  <h4> Setup your Dev environment</h4>
+                  <p>
+                    Use whatever IDE and Browser you are most comfortable with. We recommend using Google Chrome for it's awesome developer tools. As for an IDE, Sublime Text is a good free choice with a lot of on line support. Head on over to this <a href= " http://net.tutsplus.com/articles/news/perfect-workflow-in-sublime-text-free-course/" target="_blank">tutorial</a> if you're curious.
+                  </p>
+                </li>
+              </div>
+              <div id="step2">
+                <h4> Step 2: </h4>
+                <li id="github">
+                  <h4> GitHub</h4>
+                  <p>
+                    What we will be using Git for source and version control. If you are new to Git and want to learn more this a great guide: <a href= "http://rogerdudler.github.io/git-guide/" target="_blank"> Git- the simple guide </a>  
+                  </p>
+                  <p>
+                    Create a <a href="https://github.com" target="_blank">GitHub</a> account if you don't already have one and <a href=" https://help.github.com/articles/set-up-git" target="_blank">Set it all up</a>.
+                  </p>
+                  <p> 
+                    Finally, create a <a href = "http://pages.github.com/" target="_blank"> GitHub page </a> which is a really easy way to get your 3 HTML pages up and running for us to see :)
+                  </p>
+                </li>
+              </div>
+              <div id="step3">
+                <h4> Step 3: </h4>
+                <li id="html-pages">
+                  <h4> HTML pages </h4>
+                  <p>
+                    Your pages should all connect to each other and contain the following tags: section, p, h1, h2, ul, li, img . They should also be stylized using CSS: try adding different colors to each one of your sections, a border around your image and play around with some hover effects. Make sure you are comfortable with using <a href ="https://developers.google.com/chrome-developer-tools/ " target="_blank"> Google Chrome developer tools </a>
+                  </p>
+                  <ul id="pages-list">
+                    <li>
+                      Page 1: About me - could include a photo, short bio and a list of things you like
+                    </li>
+                    <li>
+                      Page 2: What you want to learn and why you would like to be in a mentor group
+                    </li>
+                    <li>
+                      Page 3: Projects you have worked on, working on or have in mind
+                    </li>
+                  </ul>
+                  <p> Commit all these pages to your GitHub page repository </p>
+                </li>
+              </div>
+              <div id="step4">
+                <h4> Step 4: </h4>
+                <li id="command-line">
+                  <h4> Command Line (CLI) </h4>
+                  <p>   If you are using a Mac you can access command line through <a href = " http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line" target = "_blank"> Terminal </a> <br/>
+                  If you are using Windows you can access it through <a href = "http://social.technet.microsoft.com/wiki/contents/articles/4307.powershell-for-beginners.aspx" target="_blank"> PowerShell </a>
+                  </p>
+                  <p> Commands you should be familiar with: </p>
+                  <p id="commands">ls, mkdir, cd, rm, mv, cp, more, less, pwd, find, cat </p>
+                </li>
+              </div>
+          </ul>	
       </div>
     </div>
   </body>
