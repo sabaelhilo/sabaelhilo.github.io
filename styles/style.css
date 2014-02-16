@@ -42,7 +42,6 @@ p {
 	list-style-type: none;
 }
 .content-top {
-	width:100%;
 	margin-left: 50px;
 }
 
@@ -78,8 +77,7 @@ p {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 10px;
-	width:90%;
+	width:80%;
 }
 
 .content-top #intro-text {
