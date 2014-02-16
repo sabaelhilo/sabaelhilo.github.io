@@ -40,8 +40,11 @@ p {
 .content ul {
 	list-style-type: none;
 }
+.content-top {
+	margin-left: 50px;
+}
 
-.content #intro {
+.content-top #intro {
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
@@ -55,9 +58,10 @@ p {
 	padding-top:20px;
 	opacity: 0.9;
 	height: 380px;
+	margin-left:120px;
 }
 
-.content #intro-background {
+.content-top #intro-background {
 	display: block;	
 	background-image: url('../images/buildings.png');
 	background-repeat: no-repeat;
@@ -68,7 +72,7 @@ p {
 	width:90%;
 }
 
-.content #intro-text {
+.content-top #intro-text {
 	font-size: 15px;
 }
 .content #steps {
@@ -89,8 +93,12 @@ p {
 	position: relative;
 	padding-left: 30px;
 	font-size: 18px;
-		background-color: #f5f5f5;
+	background-color: #f5f5f5;
 
+}
+
+.content .steps-text {
+	margin-right: 30px;
 }
 
 .content h4 {
@@ -98,6 +106,14 @@ p {
 	margin-bottom: -2px;
 	font-size: 20px;
 	color: #4183C4;
+}
+
+.content .pages {
+	padding-bottom: 0px;
+	margin-bottom: -2px;
+	font-size: 16px;
+		color: #FF3898;
+
 }
 
 .content h4:hover {
@@ -114,18 +130,6 @@ h1 {
 	color: #4183C4;
 }
 
-/*#step1 {
-	display: none;
-}
-#step2 {
-	display: none;
-}
-#step3 {
-	display: none;
-}
-#step4 {
-	display: none;
-}*/
 #commands {
 	color: #FF3898;
 }

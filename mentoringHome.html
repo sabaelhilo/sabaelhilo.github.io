@@ -6,24 +6,10 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script>
-   /*   $( document ).ready(function() {
-        var time = 2000;
-        $('#step1').fadeIn(1500, function() {
-          $('#step2').fadeIn(time, function() {
-            $('#step3').fadeIn(time, function() {
-              $('#step4').fadeIn(time, function() {
-
-              });   
-            });
-          });
-        });
-      });*/
-    </script>
     
     <div class = "page">
       <div class = "banner"> <img src="images/banner.jpg"></img> </div>
-      <div class = "content">
+      <div class = "content-top">
         <div id="intro-background">
         <div id = "intro">
           <div id="intro-text">
@@ -45,27 +31,29 @@
           </div>
         </div>
         </div>
+      </div>
+      <div class="content">
         <ul id="steps">
           <div id="step1">
             <h4> Step 1: </h4>
               <li id="dev-environment">
                 <h4> Setup your Dev environment</h4>
-                <p>
-                  Use whatever IDE and Browser you are most comfortable with. We recommend using Google Chrome for it's awesome developer tools. As for an IDE, Sublime Text is a good free choice with a lot of on line support. Head on over to this <a href= " http://net.tutsplus.com/articles/news/perfect-workflow-in-sublime-text-free-course/" target="_blank">tutorial</a> if you're curious.
-                </p>
+                    <p class="steps-text">
+                      Use whatever Integrated Development Environment (IDE) and Browser you are most comfortable with. We recommend using Google Chrome for it's awesome developer tools. As for an IDE, Sublime Text is a good free choice with a lot of on line support. Head on over to this <a href= " http://net.tutsplus.com/articles/news/perfect-workflow-in-sublime-text-free-course/" target="_blank">tutorial</a> if you're curious.
+                    </p>
               </li>
           </div>
           <div id="step2">
             <h4> Step 2: </h4>
               <li id="github">
                 <h4> GitHub</h4>
-                <p>
+                <p class="steps-text">
                   We will be using Git for source and version control. If you are new to Git or want to learn all the details, this a great guide: <a href= "http://rogerdudler.github.io/git-guide/" target="_blank"> Git- the simple guide </a>  
                 </p>
-                <p>
+                <p class="steps-text">
                   Create a <a href="https://github.com" target="_blank">GitHub</a> account if you don't already have one and <a href=" https://help.github.com/articles/set-up-git" target="_blank">Set it all up</a>.
                 </p>
-                <p> 
+                <p class="steps-text"> 
                   Finally, create a <a href = "http://pages.github.com/" target="_blank"> GitHub page </a> which is a really easy way to get your 3 HTML pages up and running for us and the world to see :)
                 </p>
               </li>
@@ -74,21 +62,22 @@
             <h4> Step 3: </h4>
               <li id="html-pages">
                 <h4> HTML pages </h4>
-                <p>
+                <p class="steps-text">
                   Your pages should all connect to each other and try using all of the following tags: section, p, h1, h2, ul, li, img . They should also be stylized using CSS: try adding different colors to each one of your sections, a border around your image and play around with some hover effects. Make sure you are comfortable with using <a href ="https://developers.google.com/chrome-developer-tools/ " target="_blank"> Google Chrome developer tools </a>
                 </p>
-                <ul id="pages-list">
-                  <li>
-                    Page 1: About me - could include a photo, short bio and a list of things you like or enjoy doing. Please include details about your technical background, such as languages you are familiar with, technologies you have worked with etc..
-                  </li>
-                  <li>
-                    Page 2: Mentoring groups - Which mentoring group you would like to join, why and what you hope to learn and get out of it. 
-                  </li>
-                  <li>
-                    Page 3: Your Projects - List and describe the projects you have worked on, working on or have in mind
-                  </li>
-                </ul>
-                <p> Commit all these pages to your GitHub page repository </p>
+                <h5 class="pages"> Page 1 : About Me </h5>
+                <p class="steps-text">
+                  Could include a photo, short bio and a list of things you like or enjoy doing. Please include details about your technical background, such as languages you are familiar with, technologies you have worked with etc..
+                </p>
+                <h5 class="pages"> Page 2 : Mentoring Groups </h5>  
+                <p class="steps-text">
+                    Which mentoring group you would like to join, why and what you hope to learn and get out of it.
+                </p> 
+                <h5 class="pages"> Page 3 : Your Projects </h5>
+                <p class="steps-text">
+                    List and describe the projects you have worked on, working on or would like to work on
+                </p>
+                <p> Commit all these pages to your GitHub page repository and post the link on the event's page on meetup  </p>
               </li>
           </div>
           <div id="step4">
