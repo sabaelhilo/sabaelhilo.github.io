@@ -71,13 +71,7 @@ p {
 }
 
 .content-top #intro-background {
-	display: block;	
-	background-image: url('../images/buildings.png');
-	background-repeat: no-repeat;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	background-size:95%;
+
 }
 
 .content-top #intro-text {
