@@ -51,7 +51,7 @@ So far, I'm finding Jekyll and the [Hyde](http://hyde.getpoole.com/) theme incre
 
  2. `Since v3.0, permalinks for pages in subfolders must be relative to the site source directory` 
 
-    I resolved the error by removing the following line from my _config.yml file: relative_permalinks: true
+    I resolved the error by removing the following line from my _config.yml file: `relative_permalinks: true`
 
 ### Final Thoughts
 
