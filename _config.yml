@@ -1,0 +1,30 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Life Of Saba
+tagline:             A collection of adventures
+url:                 http://sabaelhilo.github.io
+paginate:            1
+baseurl:             /
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Saba El-Hilo
+  url:               https://twitter.com/SabaElhilo
+
+# Custom vars
+version:             2.0.0
+
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
