@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Why I chose Jekyll
+tags:
+- jekyll
+- Technical 
+published: true
 ---
 
 As the new year rolled in just like many people on this earth, I reflected on the previous year and thought about some of the things I would like to accomplish in the new year. I don't have a long list, because I don't believe that ever works. Rather I'm focusing on a select few items, one of them being to write more this year. I've been writing quite a few blog posts for work and I found that I really do enjoy writing. I always seem to be  working on or doing exciting things that I would like to document to look back on. Hopefully one or two more people will find some of these posts helpful along the way.

@@ -267,3 +267,18 @@ img.profile {
   float: left;
 }
 
+/* tags */
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+}
+.archive-item {
+  margin-left: 5px;
+}
+.post-tags {
+  text-align: right;
+}
+
